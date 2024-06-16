@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hover Buttons</title>
+    <style>
+        #sidenav a{
+            position:absolute;
+            left:-80px;
+            padding: 15px;
+            transition: 0.3s;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+        #sidenav a:hover{
+            left:0;
+        }
+        #home{
+            top:20px;
+            background-color: rgb(42, 177, 87);
+        }
+        #courses{
+            top:80px;
+            background-color: rgb(40, 124, 235);
+        }
+        #about{
+            top:140px;
+            background-color: rgb(196, 48, 48);
+        }
+        #contact{
+            top:200px;
+            background-color: rgb(83, 77, 77);
+        }
+        .div{
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidenav">
+        <a href="#" id="home">Home</a>
+        <a href="#" id="courses">Courses</a>
+        <a href="#" id="about">About</a>
+        <a href="#" id="contact">Contact</a>
+    </div>
+    <div class="div">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the 
+        left side navigation to open them.</p>
+    </div>
+</body>
+</html>
